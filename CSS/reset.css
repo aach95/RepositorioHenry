@@ -1,0 +1,89 @@
+/* Reset CSS */
+
+/* Box sizing border-box por defecto */
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Remover margenes y padding predeterminados */
+  body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, figure, hr, pre {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remover list-style de ul y ol */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remover margenes de imagenes */
+  img {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remover decoracion de hipervinculos */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Establecer estilos base de fuente */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Remover decoracion de lista */
+  li {
+    list-style: none;
+  }
+  
+  /* Establecer anchura y altura explicita en imagenes para prevenir saltos de pagina */
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Limpiar espacios en blanco de elementos en linea */
+  /* Esto es opcional, puedes omitirlo si prefieres mantener el espacio entre elementos en línea */
+  * {
+    vertical-align: baseline;
+  }
+  
+  /* Resetear estilos de tabla */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Resetear borde de tabla */
+  th, td {
+    border: none;
+  }
+  
+  /* Restablecer texto de entrada */
+  input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  /* Resetear margen y padding para botones */
+  button, input[type="button"], input[type="submit"], input[type="reset"] {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  /* Asegurar que los elementos ocultos no sean visibles */
+  [hidden] {
+    display: none !important;
+  }
+  
