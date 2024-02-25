@@ -33,29 +33,45 @@ background-color: rgb(241, 166, 14);
 }
 
 .cards{
-    font-size: 30px;
-    color: white;
-    margin: 1em;
-    font-size: 2em solid white;
-    padding: 1em;
-    text-align: center;
+
+    border: 2px solid white;
+    width: 5.5em;
+    height: auto;
+    transition: 1s;
     display: flex;
-    flex-direction: row;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
     justify-content: center;
+    
+}
+.cards:hover{
+    background-color: #000000;
+
 }
 
 #cards-container{
-    width: max-content;
-    font-size: 1em;
-    text-align: center;
-    border-radius: 2em;
+    width: 10%;
+    margin: 1em;
+    margin-top: 1.5em;
+    border: 5px solid white;
+    border-radius: 15px;
     padding: 1em;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 #cards-container:hover{
     background-color: rgb(241, 166, 14);
 }
-   
+
+.img-blog{
+    width: 200px;
+    border-radius: 20%;
+}   
 .video{
     width: max-content;
     height: 400px;
@@ -64,12 +80,11 @@ background-color: rgb(241, 166, 14);
 }
 
 .img{
-    width: fit-content;
+    width: min-content;
     height: 400px;
     align-content: center;
     border-radius: 15px;
     border: 2px solid black;
-    padding: 2em 2em 2em 2em;
 }
 
 .myText{

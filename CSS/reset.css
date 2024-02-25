@@ -45,7 +45,7 @@ html {
   /* Establecer anchura y altura explicita en imagenes para prevenir saltos de pagina */
   img {
     display: block;
-    width: 100%;
+    width: 75%;
     height: auto;
   }
   
